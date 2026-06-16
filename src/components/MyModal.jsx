@@ -1,41 +1,16 @@
 export default function MyModal() {
-  return (
-    <div className="modal" tabIndex="-1">
-      <div className="modal-dialog">
-        <div className="modal-content">
-          <div className="modal-header">
-            <h5 className="modal-title">Modal title</h5>
-
-            <button
-              type="button"
-              className="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-
-          <div className="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-
-          <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-
-            <button
-              type="button"
-              className="btn btn-primary"
-            >
-              Save changes
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <>
+            <div class="container mt-5">
+                <div class="card" style={{ width: "18rem" }}>
+                    <img src="https://plus.unsplash.com/premium_photo-1661963148186-5411dad251e8?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
 }
