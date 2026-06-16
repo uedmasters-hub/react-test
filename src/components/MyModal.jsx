@@ -1,4 +1,4 @@
-export defaultfunction MyModal() {
+export default function MyModal() {
   return (
     <div className="modal" tabIndex="-1">
       <div className="modal-dialog">
@@ -37,3 +37,5 @@ export defaultfunction MyModal() {
         </div>
       </div>
     </div>
+  );
+}
