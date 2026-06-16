@@ -9,3 +9,16 @@ function App() {
 }
  
 export default App;
+
+
+import MyModal from "./components/MyModal";
+
+function App() {
+  return (
+    <div>
+      <MyModal />
+    </div>
+  );
+}
+
+export default App;
