@@ -1,13 +1,11 @@
-import './App.css';
-import Header from './components/Header';
-import MyModal from './components/MyModal';
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <>
-      <Header />
-      <MyModal />
-    </>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 

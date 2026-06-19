@@ -1,0 +1,9 @@
+function Messages() {
+  return (
+    <div className="container py-5">
+      <h1>Messages</h1>
+    </div>
+  );
+}
+
+export default Messages;

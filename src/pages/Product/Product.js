@@ -1,9 +1,9 @@
-function Home() {
+function Product() {
   return (
     <div className="container py-5">
-      <h1>Home</h1>
+      <h1>Product</h1>
     </div>
   );
 }
 
-export default Home;
+export default Product;
