@@ -1,0 +1,33 @@
+/* ========================================
+   SWAPP CONTAINER
+======================================== */
+
+.sw-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 24px;
+}
+
+.sw-container--default {
+    max-width: 1320px;
+}
+
+.sw-container--wide {
+    max-width: 1440px;
+}
+
+.sw-container--narrow {
+    max-width: 960px;
+}
+
+.sw-container--full {
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+
+    .sw-container {
+        padding-inline: 20px;
+    }
+
+}

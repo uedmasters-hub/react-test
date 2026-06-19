@@ -1,0 +1,60 @@
+.popular-brands {
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.brand-slider {
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.brand-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: scrollBrands 30s linear infinite;
+}
+
+.brand-track:hover {
+  animation-play-state: paused;
+}
+
+.brand-card {
+  min-width: 220px;
+  height: 100px;
+
+  background: #fff;
+
+  border: 1px solid #ececec;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: 700;
+
+  transition: .3s;
+}
+
+.brand-card:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow: 0 20px 40px rgba(0,0,0,.08);
+
+}
+
+@keyframes scrollBrands {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+
+}

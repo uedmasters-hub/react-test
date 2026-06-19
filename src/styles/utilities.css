@@ -1,0 +1,29 @@
+.section{
+
+    padding:var(--space-3xl) 0;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.shadow{
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.rounded{
+
+    border-radius:var(--radius-lg);
+
+}
+
+.bg-white{
+
+    background:var(--bg-surface);
+
+}

@@ -1,9 +1,7 @@
-@import "./variables.css";
+@import "./theme.css";
 @import "./typography.css";
-@import "./spacing.css";
-@import "./buttons.css";
 @import "./utilities.css";
-@import "./animations.css";
+@import "./responsive.css";
 
 *{
     margin:0;
@@ -16,15 +14,27 @@ html{
 }
 
 body{
-    font-family:Inter,sans-serif;
-    background:#F7F8FA;
-    color:#202124;
+
+    font-family:"Inter",sans-serif;
+
+    background:var(--bg-body);
+
+    color:var(--text-primary);
+
+    overflow-x:hidden;
+
+}
+
+img{
+    display:block;
+    max-width:100%;
 }
 
 a{
     text-decoration:none;
+    color:inherit;
 }
 
-img{
-    max-width:100%;
+button{
+    font-family:inherit;
 }
